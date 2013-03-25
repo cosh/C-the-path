@@ -129,47 +129,82 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] ctp</name>
+			<name>[Targets]/[lib] C4</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] ctp/</name>
+			<name>[Targets]/[lib] C4/</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] ctp/Source Files</name>
+			<name>[Targets]/[lib] C4/Source Files</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] ctp/Source Files/demo.cxx</name>
+			<name>[Targets]/[lib] C4/Source Files/c4.cxx</name>
 			<type>1</type>
-			<location>/home/cosh/Code/C-the-path/demo.cxx</location>
+			<location>/home/cosh/Code/C-the-path/Dependencies/Path/Dependencies/C4/src/c4.cxx</location>
 		</link>
 		<link>
-			<name>[Targets]/[exe] ctp/Source Files/demo_b.cxx</name>
+			<name>[Targets]/[lib] C4/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] C4/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] C4/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] C4/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] t_c4_basic</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] t_c4_basic/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] t_c4_basic/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] t_c4_basic/Source Files/t_c4_basic.cxx</name>
 			<type>1</type>
-			<location>/home/cosh/Code/C-the-path/demo_b.cxx</location>
+			<location>/home/cosh/Code/C-the-path/Dependencies/Path/Dependencies/C4/tests/t_c4_basic.cxx</location>
 		</link>
 		<link>
-			<name>[Targets]/[exe] ctp/Header Files</name>
+			<name>[Targets]/[exe] t_c4_basic/Header Files</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] ctp/CMake Rules</name>
+			<name>[Targets]/[exe] t_c4_basic/CMake Rules</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] ctp/Resources</name>
+			<name>[Targets]/[exe] t_c4_basic/Resources</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[exe] ctp/Object Files</name>
+			<name>[Targets]/[exe] t_c4_basic/Object Files</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
@@ -191,7 +226,7 @@
 		<link>
 			<name>[Targets]/[lib] PATH/Source Files/path.cxx</name>
 			<type>1</type>
-			<location>/home/cosh/Code/C-the-path/Dependencies/Path/path.cxx</location>
+			<location>/home/cosh/Code/C-the-path/Dependencies/Path/src/path.cxx</location>
 		</link>
 		<link>
 			<name>[Targets]/[lib] PATH/Header Files</name>
@@ -214,42 +249,87 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[lib] C4</name>
+			<name>[Targets]/[exe] t_path_basic</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[lib] C4/</name>
+			<name>[Targets]/[exe] t_path_basic/</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[lib] C4/Source Files</name>
+			<name>[Targets]/[exe] t_path_basic/Source Files</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[lib] C4/Source Files/c4.cxx</name>
+			<name>[Targets]/[exe] t_path_basic/Source Files/t_path_basic.cxx</name>
 			<type>1</type>
-			<location>/home/cosh/Code/C-the-path/Dependencies/Path/Dependencies/C4/c4.cxx</location>
+			<location>/home/cosh/Code/C-the-path/Dependencies/Path/tests/t_path_basic.cxx</location>
 		</link>
 		<link>
-			<name>[Targets]/[lib] C4/Header Files</name>
+			<name>[Targets]/[exe] t_path_basic/Header Files</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[lib] C4/CMake Rules</name>
+			<name>[Targets]/[exe] t_path_basic/CMake Rules</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[lib] C4/Resources</name>
+			<name>[Targets]/[exe] t_path_basic/Resources</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>[Targets]/[lib] C4/Object Files</name>
+			<name>[Targets]/[exe] t_path_basic/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Source Files/demo.cxx</name>
+			<type>1</type>
+			<location>/home/cosh/Code/C-the-path/src/demo.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Source Files/demo_b.cxx</name>
+			<type>1</type>
+			<location>/home/cosh/Code/C-the-path/src/demo_b.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Object Files</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>

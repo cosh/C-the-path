@@ -22,3 +22,4 @@ CTestTestfile.cmake
 CPackConfig.cmake
 CPackSourceConfig.cmake
 DartConfiguration.tcl
+Testing/*
