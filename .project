@@ -129,6 +129,51 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>[Targets]/[exe] ctp</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Source Files/demo.cxx</name>
+			<type>1</type>
+			<location>/home/cosh/Code/C-the-path/src/demo.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Source Files/demo_b.cxx</name>
+			<type>1</type>
+			<location>/home/cosh/Code/C-the-path/src/demo_b.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] ctp/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>[Targets]/[lib] C4</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -285,51 +330,6 @@
 		</link>
 		<link>
 			<name>[Targets]/[exe] t_path_basic/Object Files</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>[Targets]/[exe] ctp</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>[Targets]/[exe] ctp/</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>[Targets]/[exe] ctp/Source Files</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>[Targets]/[exe] ctp/Source Files/demo.cxx</name>
-			<type>1</type>
-			<location>/home/cosh/Code/C-the-path/src/demo.cxx</location>
-		</link>
-		<link>
-			<name>[Targets]/[exe] ctp/Source Files/demo_b.cxx</name>
-			<type>1</type>
-			<location>/home/cosh/Code/C-the-path/src/demo_b.cxx</location>
-		</link>
-		<link>
-			<name>[Targets]/[exe] ctp/Header Files</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>[Targets]/[exe] ctp/CMake Rules</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>[Targets]/[exe] ctp/Resources</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>[Targets]/[exe] ctp/Object Files</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>

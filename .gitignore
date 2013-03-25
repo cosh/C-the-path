@@ -23,3 +23,7 @@ CPackConfig.cmake
 CPackSourceConfig.cmake
 DartConfiguration.tcl
 Testing/*
+*Source.tar.Z
+*Source.tar.bz2
+*Source.tar.gz
+_CPack_Packages/*
