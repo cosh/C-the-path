@@ -27,3 +27,5 @@ Testing/*
 *Source.tar.bz2
 *Source.tar.gz
 _CPack_Packages/*
+.cproject
+.project
