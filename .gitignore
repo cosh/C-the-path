@@ -19,3 +19,6 @@ cmake_install.cmake
 install_manifest.txt
 ctp
 CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+DartConfiguration.tcl
