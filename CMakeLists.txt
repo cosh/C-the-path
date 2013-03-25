@@ -1,6 +1,23 @@
+PROJECT(C-THE-PATH)
+
 cmake_minimum_required(VERSION 2.8)
 
-project (C-THE-PATH)
+INCLUDE(CheckIncludeFiles)
+INCLUDE(CheckFunctionExists)
+INCLUDE(CheckTypeSize)
+INCLUDE(CTest)
+INCLUDE(InstallRequiredSystemLibraries)
+
+ENABLE_TESTING()
+
+SET(CPACK_PACKAGE_VERSION_MAJOR "0")
+SET(CPACK_PACKAGE_VERSION_MINOR "1")
+SET(CPACK_PACKAGE_VERSION_PATCH "0")
+SET(CPACK_PACKAGE_VENDOR "Henning Rauch")
+SET(CPACK_RESOURCE_FILE_LICENSE LICENSE.txt)
+
+INCLUDE(CPack)
+
 
 add_subdirectory (Dependencies)
 
