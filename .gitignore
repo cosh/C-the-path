@@ -29,3 +29,4 @@ Testing/*
 _CPack_Packages/*
 .cproject
 .project
+.settings/*
