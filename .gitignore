@@ -30,3 +30,6 @@ _CPack_Packages/*
 .cproject
 .project
 .settings/*
+*-Linux.sh
+*-Linux.tar.Z
+*-Linux.tar.gz
