@@ -29,6 +29,8 @@ SET(CTP_SRC ${CTP_SRC}
   src/demo_b.cxx
 )
 
+ADD_SUBDIRECTORY(doxygen)
+
 # Make sure the compiler can find include files from the F8 library.
 INCLUDE_DIRECTORIES (${PATH_SOURCE_DIR}/include)
 # Make sure the linker can find the F8 library once it is built.

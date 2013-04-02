@@ -33,3 +33,5 @@ _CPack_Packages/*
 *-Linux.sh
 *-Linux.tar.Z
 *-Linux.tar.gz
+doc/*
+Doxyfile
