@@ -1,2 +1,6 @@
 add_subdirectory (Path)
-add_subdirectory (Zeter)
+IF(ZETER_INCLUDED)
+ELSE(ZETER_INCLUDED)
+  ADD_SUBDIRECTORY(Zeter)
+  SET(ZETER_INCLUDED 1)
+ENDIF(ZETER_INCLUDED)
