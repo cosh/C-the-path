@@ -1,6 +1,4 @@
-#include "path.h"
-
-extern Path path;
+#include "pathDb.h"
 
 int main()
 {

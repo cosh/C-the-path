@@ -26,7 +26,6 @@ ADD_SUBDIRECTORY(Dependencies)
 
 SET(CTP_SRC ${CTP_SRC}
   src/demo.cxx
-  src/demo_b.cxx
 )
 
 ADD_SUBDIRECTORY(doxygen)
@@ -41,7 +40,7 @@ LINK_DIRECTORIES(${PATH_BINARY_DIR})
 ADD_EXECUTABLE(ctp ${CTP_SRC})
 
 # Link the executable to the F8 library.
-TARGET_LINK_LIBRARIES(ctp PATH ZETER)
+TARGET_LINK_LIBRARIES(ctp PATH C4 ZETER)
 
 INSTALL(TARGETS ctp
         RUNTIME DESTINATION bin
