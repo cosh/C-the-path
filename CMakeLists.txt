@@ -1,9 +1,5 @@
 PROJECT(C-THE-PATH)
 
-if(UNIX)
-    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=gnu++0x")
-endif()
-
 CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
 INCLUDE(CheckIncludeFiles)
@@ -13,6 +9,10 @@ INCLUDE(CTest)
 INCLUDE(InstallRequiredSystemLibraries)
 
 ENABLE_TESTING()
+
+if(UNIX)
+    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++11 -pthread")
+endif()
 
 SET(CPACK_PACKAGE_VERSION_MAJOR "0")
 SET(CPACK_PACKAGE_VERSION_MINOR "1")
