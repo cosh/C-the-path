@@ -35,3 +35,4 @@ _CPack_Packages/*
 *-Linux.tar.gz
 doc/*
 Doxyfile
+Dependencies/Testing/*
